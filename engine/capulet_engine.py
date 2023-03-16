@@ -3,7 +3,7 @@ from abc import ABC
 from car import Car
 
 
-class CapuletEngine(Car, ABC):
+class CapuletEngine(Engine):
     def __init__(self, mileage):
         super().__init__("CapuletEngine")
         self.mileage = mileage
